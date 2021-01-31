@@ -1,0 +1,82 @@
+body
+{
+    text-align: center;
+    background-color: #c5192d;
+}
+
+
+.my_nav_bar
+{
+    position:sticky;
+    top:0;
+    z-index:99999;
+    background-color:#E3D5D5;
+
+}
+
+@font-face{
+    font-family: "tungsten";
+    src: 
+	url('fonts/lovely_font.ttf') 
+	format('truetype');
+
+}
+
+.round-squares{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    background-color: white;
+    width: 75%;
+    height: fit-content;
+    text-align: center;
+}
+
+.round-squares h2{
+    color: black;
+}
+
+.round-squares button{
+    border-color: black;
+    color: black;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.round-squares2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    background-color: white;
+    width: 75%;
+    height: 75%;
+    text-align: center;
+}
+
+.footer{
+    background-color: white; padding-bottom: 20px; bottom: 0; position: fixed; width: 100%;
+    text-align: center;
+}
+
+.round-squares h2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.round-squares2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    background-color: white;
+    width: 75%;
+    height: fit-content;
+    text-align: center;
+    color: black;
+}
